@@ -1,0 +1,43 @@
+package tests;
+
+import org.testng.annotations.Test;
+
+import espocrm.pages.AccountPage;
+import pageObjects.LoginPage;
+
+import java.awt.Button;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.BeforeMethod;
+
+public class MainTest {
+	static WebDriver driver;
+	
+	
+  @BeforeMethod
+  public void beforeTest() { 
+	
+	System.setProperty("webdriver.chrome.driver","D:/automation/Drivers/chromedriver.exe");
+	 driver = new ChromeDriver();
+	driver.manage().window().maximize();
+	driver.get("https://demov81u20ab6ecea37d930a3faos.cloudax.dynamics.com/");
+    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    
+  }
+ 
+  	@Test(enabled=true)
+	public void loginpage()
+	{
+		//LoginPage login=PageFactory.initElements(driver, LoginPage.class);
+		LoginPage login = new LoginPage(driver);
+		login.Username("");
+		login.button(null);
+		login.password("");
+		login.button(null);
+		
+	}
+  
+}

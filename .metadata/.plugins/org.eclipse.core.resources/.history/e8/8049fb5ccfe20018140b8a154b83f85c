@@ -1,0 +1,10 @@
+package tests;
+import pageObjects.Objects;
+public class Methods {
+
+	public void fillLoginDetails( useraame,password) 
+	{
+		class.userName
+		
+	}
+}

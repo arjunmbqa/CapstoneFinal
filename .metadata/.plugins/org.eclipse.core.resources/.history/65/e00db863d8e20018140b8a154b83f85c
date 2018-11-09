@@ -1,0 +1,36 @@
+package capstone.tests;
+
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+import capstone.pages.Loginpage;
+
+
+public class Tests extends ParentTests {
+	
+	LoginPage loginPage;
+	MasterDashboardPage masterDashboardPage;
+	
+	@BeforeMethod
+	public void beforeEachTestLocal() {
+		loginPage = new LoginPage(driver);
+		masterDashboardPage = new MasterDashboardPage(driver);		
+		loginPage.login(readConfigFile.getEspoCrmUsername(), readConfigFile.getEspoCrmPassword());
+	}
+	
+	@Test(enabled=true)
+	public void createAccount() {
+		AccountPage accountPage = new AccountPage(driver);
+		AccountCreatePage accountCreatePage = new AccountCreatePage(driver);
+		AccountViewPage accountViewPage = new AccountViewPage(driver);
+				
+		masterDashboardPage.clickAccounts();
+		accountPage.clickCreateAccount();
+		accountCreatePage.fillName("Preety");
+		accountCreatePage.fillEmail("abcd@gmail.com");
+		accountCreatePage.selectPhoneType("Mobile");
+		accountCreatePage.fillPhone("0225716869");
+		accountCreatePage.fillWebsite("www.abcd.com");
+		accountCreatePage.clickSave();
+		accountViewPage.isAccountsPreetyDaisplayed();
+	}
+	

@@ -1,0 +1,5 @@
+package capstone.utils;
+
+public class ReadConfigFile {
+
+}

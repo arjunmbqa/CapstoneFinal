@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1536197513959_2" label="driver" name="driver">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Drivers" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1528325775555_0" label="Window Working Set" name="Aggregate for window 1528325775555"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1536195889913_1" label="Window Working Set" name="Aggregate for window 1536195889913"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1541037987235_3" label="Window Working Set" name="Aggregate for window 1541037987235"/>
+<mruList name="driver"/>
+</workingSetManager>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[Value filled in username textbox]]>
+    </line>
+    <line>
+      <![CDATA[Next button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Value filled in password textbox]]>
+    </line>
+    <line>
+      <![CDATA[Submit button clicked]]>
+    </line>
+    <line>
+      <![CDATA[No Save button clicked]]>
+    </line>
+    <line>
+      <![CDATA[HamburgerIcon button from menu clicked]]>
+    </line>
+    <line>
+      <![CDATA[AccountsPayable button from menu clicked]]>
+    </line>
+    <line>
+      <![CDATA[AllPurchaseOrders button from menu clicked]]>
+    </line>
+    <line>
+      <![CDATA[Value filled in Customer Number field]]>
+    </line>
+    <line>
+      <![CDATA[Value filled in Customer Number field]]>
+    </line>
+    <line>
+      <![CDATA[Value filled in Customer Number field]]>
+    </line>
+    <line>
+      <![CDATA[Edit button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Value filled in Item Number field]]>
+    </line>
+    <line>
+      <![CDATA[Value filled in Quantity field]]>
+    </line>
+    <line>
+      <![CDATA[Add Line Button Clicked]]>
+    </line>
+    <line>
+      <![CDATA[Value filled in Item Number field]]>
+    </line>
+    <line>
+      <![CDATA[Save Button Clicked]]>
+    </line>
+    <line>
+      <![CDATA[Purchase button on fast tab clicked]]>
+    </line>
+    <line>
+      <![CDATA[Purchase option clicked]]>
+    </line>
+    <line>
+      <![CDATA[Recieve button on fast tab clicked]]>
+    </line>
+    <line>
+      <![CDATA[Recieve option clicked]]>
+    </line>
+    <line>
+      <![CDATA[Receipt Number Updated]]>
+    </line>
+    <line>
+      <![CDATA[OK Button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Invoice From Fasttab clicked]]>
+    </line>
+    <line>
+      <![CDATA[Invoice option clicked]]>
+    </line>
+    <line>
+      <![CDATA[UpdateMatchStatus clicked]]>
+    </line>
+    <line>
+      <![CDATA[Value filled in Invoice Number field]]>
+    </line>
+    <line>
+      <![CDATA[Post option clicked ]]>
+    </line>
+    <line>
+      <![CDATA[Invoice option clicked]]>
+    </line>
+    <line>
+      <![CDATA[Print preview option clicked]]>
+    </line>
+    <line>
+      <![CDATA[Orginal preview option clicked]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="104077" started-at="2018-11-09T03:51:57Z" finished-at="2018-11-09T03:53:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="104077" started-at="2018-11-09T03:51:57Z" finished-at="2018-11-09T03:53:41Z">
+      <class name="tests.MainTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.MainTest@5d7d8613]" name="beforeTest" is-config="true" duration-ms="4030" started-at="2018-11-09T03:51:57Z" finished-at="2018-11-09T03:52:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginpage()[pri:0, instance:tests.MainTest@5d7d8613]" name="loginpage" duration-ms="23056" started-at="2018-11-09T03:52:01Z" finished-at="2018-11-09T03:52:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Value filled in username textbox]]>
+            </line>
+            <line>
+              <![CDATA[Next button clicked]]>
+            </line>
+            <line>
+              <![CDATA[Value filled in password textbox]]>
+            </line>
+            <line>
+              <![CDATA[Submit button clicked]]>
+            </line>
+            <line>
+              <![CDATA[No Save button clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method status="PASS" signature="NavigateToPO()[pri:1, instance:tests.MainTest@5d7d8613]" name="NavigateToPO" duration-ms="2680" started-at="2018-11-09T03:52:24Z" finished-at="2018-11-09T03:52:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[HamburgerIcon button from menu clicked]]>
+            </line>
+            <line>
+              <![CDATA[AccountsPayable button from menu clicked]]>
+            </line>
+            <line>
+              <![CDATA[AllPurchaseOrders button from menu clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NavigateToPO -->
+        <test-method status="PASS" signature="CreatePOheader()[pri:2, instance:tests.MainTest@5d7d8613]" name="CreatePOheader" duration-ms="4931" started-at="2018-11-09T03:52:27Z" finished-at="2018-11-09T03:52:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Value filled in Customer Number field]]>
+            </line>
+            <line>
+              <![CDATA[Value filled in Customer Number field]]>
+            </line>
+            <line>
+              <![CDATA[Value filled in Customer Number field]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreatePOheader -->
+        <test-method status="PASS" signature="CreatePOLines()[pri:3, instance:tests.MainTest@5d7d8613]" name="CreatePOLines" duration-ms="10145" started-at="2018-11-09T03:52:32Z" finished-at="2018-11-09T03:52:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Edit button clicked]]>
+            </line>
+            <line>
+              <![CDATA[Value filled in Item Number field]]>
+            </line>
+            <line>
+              <![CDATA[Value filled in Quantity field]]>
+            </line>
+            <line>
+              <![CDATA[Add Line Button Clicked]]>
+            </line>
+            <line>
+              <![CDATA[Value filled in Item Number field]]>
+            </line>
+            <line>
+              <![CDATA[Save Button Clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreatePOLines -->
+        <test-method status="PASS" signature="ConfirmPO()[pri:4, instance:tests.MainTest@5d7d8613]" name="ConfirmPO" duration-ms="4270" started-at="2018-11-09T03:52:42Z" finished-at="2018-11-09T03:52:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Purchase button on fast tab clicked]]>
+            </line>
+            <line>
+              <![CDATA[Purchase option clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ConfirmPO -->
+        <test-method status="PASS" signature="RecieptPO()[pri:5, instance:tests.MainTest@5d7d8613]" name="RecieptPO" duration-ms="15557" started-at="2018-11-09T03:52:46Z" finished-at="2018-11-09T03:53:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Recieve button on fast tab clicked]]>
+            </line>
+            <line>
+              <![CDATA[Recieve option clicked]]>
+            </line>
+            <line>
+              <![CDATA[Receipt Number Updated]]>
+            </line>
+            <line>
+              <![CDATA[OK Button clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- RecieptPO -->
+        <test-method status="PASS" signature="InvoicePO()[pri:6, instance:tests.MainTest@5d7d8613]" name="InvoicePO" duration-ms="30680" started-at="2018-11-09T03:53:02Z" finished-at="2018-11-09T03:53:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Invoice From Fasttab clicked]]>
+            </line>
+            <line>
+              <![CDATA[Invoice option clicked]]>
+            </line>
+            <line>
+              <![CDATA[UpdateMatchStatus clicked]]>
+            </line>
+            <line>
+              <![CDATA[Value filled in Invoice Number field]]>
+            </line>
+            <line>
+              <![CDATA[Post option clicked ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- InvoicePO -->
+        <test-method status="PASS" signature="PrintInvoice()[pri:7, instance:tests.MainTest@5d7d8613]" name="PrintInvoice" duration-ms="8689" started-at="2018-11-09T03:53:32Z" finished-at="2018-11-09T03:53:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Invoice option clicked]]>
+            </line>
+            <line>
+              <![CDATA[Print preview option clicked]]>
+            </line>
+            <line>
+              <![CDATA[Orginal preview option clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PrintInvoice -->
+      </class> <!-- tests.MainTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

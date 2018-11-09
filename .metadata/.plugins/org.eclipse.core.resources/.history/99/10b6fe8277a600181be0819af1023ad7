@@ -1,0 +1,31 @@
+package pack1;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class Editmail {
+	
+	 static WebDriver driver;
+		
+		public static void editmail(WebDriver driver) {
+		
+		WebElement menu;
+		menu = driver.findElement(By.xpath("/html/body/div[1]/nav/div[1]/div/div[3]/ul/li[5]/div/a/span[1]"));  
+		menu.click();
+		
+		WebElement preferences;
+		preferences = driver.findElement(By.xpath("//*[@id=\"menubar_item_right_LBL_MY_PREFERENCES\"]"));  
+		preferences.click();
+		
+		WebElement edit;
+		edit = driver.findElement(By.xpath("/html/body/div[1]/div[4]/div[2]/div/div/div/div/div[1]/div[2]/div/div/button[1]"));  
+		edit.click();
+	    
+		WebElement email;
+		email = driver.findElement(By.xpath("//*[@id=\"Users_editView_fieldName_email1\"]"));
+		email.sendKeys("call someone");
+		
+	    }
+
+}

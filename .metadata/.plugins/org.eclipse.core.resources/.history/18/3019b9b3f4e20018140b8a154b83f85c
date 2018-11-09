@@ -1,0 +1,39 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.testng.Reporter;
+
+public class LoginPage {
+	WebDriver driver;
+	
+	//LOGIN PAGE
+	
+	
+	By username = By.name("loginfmt");
+
+    By password = By.name("passwd");
+
+    By button =By.id("idSIButton9");
+
+    By StaySignIn = By.id("idBtn_Back");
+    
+    public LoginPage(WebDriver driver) {
+	this.driver = driver;
+	}
+    
+    public void Username(String UserName){
+    	driver.findElement(username).sendKeys(UserName);
+        Reporter.log("Value filled in username textbox");
+    }
+    public void password(String Pass){
+    	driver.findElement(password).sendKeys(Pass);
+        Reporter.log("Value filled in password textbox");
+    }
+    public void button(String button){
+    	driver.findElement(password).click();;
+        Reporter.log("Value filled in password textbox");
+    }
+     
+        
+ }
