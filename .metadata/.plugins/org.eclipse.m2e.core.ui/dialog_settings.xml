@@ -44,6 +44,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Arjun\eclipse-workspace\espocrm-test-automation\src\test\java\espocrm\tests\Tests.java"/>
 			<item value="C:\Users\Arjun\eclipse-workspace\Capstone1\src\CommonClass\NewTest.java"/>
 			<item value="C:\Users\Arjun\eclipse-workspace\eclipseWS1"/>
 			<item value="C:\Users\Arjun\eclipse-workspace"/>
@@ -59,6 +60,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="CucumMav.Capstone3"/>
+			<item value="CucumMav.mav"/>
 			<item value="CucumMav.Cap"/>
 			<item value="CucumMav.ab"/>
 			<item value="espocrm.espocrm1"/>
@@ -69,6 +72,8 @@
 			<item value="espocrm"/>
 		</list>
 		<list key="artifactId">
+			<item value="Capstone3"/>
+			<item value="mav"/>
 			<item value="Cap"/>
 			<item value="ab"/>
 			<item value="espocrm1"/>
